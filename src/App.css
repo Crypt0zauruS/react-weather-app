@@ -20,7 +20,7 @@ button {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-
+  z-index: 2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -38,12 +38,55 @@ button {
   border-radius: 5px;
 }
 
+.footer {
+  color: #b6b4b3;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  margin-right: 20px;
+}
+.footer a {
+  display: inline;
+}
+
+.twitter {
+  color: #61dafb;
+  font-size: 1.1em;
+}
+
+.github {
+  color: lightgrey;
+  font-size: 1.1em;
+}
+
+.footer a:hover {
+  color: orangered;
+}
+
+.footer,
+.footer a {
+  font-size: 1em;
+}
+
+.footer h1 {
+  font-size: 1.8em;
+}
+
 @media (max-width: 560px) {
   .card {
     width: 95vw;
   }
   .card-body {
     font-size: 0.9em;
+  }
+
+  .footer h1 {
+    font-size: 1.3em;
+    margin: 0;
   }
 }
 
@@ -54,6 +97,11 @@ button {
 
   .card-body {
     font-size: 1.4em;
+  }
+
+  .footer h1 {
+    font-size: 1.5em;
+    margin: 0;
   }
 }
 
