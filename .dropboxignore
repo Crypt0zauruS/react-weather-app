@@ -1,3 +1,6 @@
+# ----
+# Automatically Generated .dropboxignore file at Ven 11 nov 2022 17:52:17 +04
+# ----
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,4 +24,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.dropboxignore
+# ----

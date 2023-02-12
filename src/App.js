@@ -17,7 +17,7 @@ function App() {
       const { latitude, longitude } = position.coords;
       // if you want to use openweathermap, use:
       //const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
-      const url = `https://weather-proxy.freecodecamp.rocks/api/current?lon=${longitude}&lat=${latitude}`;
+      const url = `https://fcc-weather-api.glitch.me/api/current?lon=${longitude}&lat=${latitude}`;
       fetch(url)
         .then((res) => res.json(url))
         .then((data) => setApiData(data))
